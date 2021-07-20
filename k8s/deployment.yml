@@ -18,7 +18,7 @@ spec:
         app: javaapp
     spec:
       containers:
-      - image: 007892345/testapp:${BUILD_NUMBER}
+      - image: 007892345/testapp:BUILD_NUMBER
         name: javaapp
         ports:
         - containerPort: 8080
